@@ -10,15 +10,6 @@ namespace Kacasnap {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
-	/// <summary>
-	/// Form1 摘要
-	///
-	/// 警告: 如果更改此类的名称，则需要更改
-	///          与此类所依赖的所有 .resx 文件关联的托管资源编译器工具的
-	///          “资源文件名”属性。否则，
-	///          设计器将不能与此窗体的关联
-	///          本地化资源正确交互。
-	/// </summary>
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
 	public:
@@ -26,13 +17,13 @@ namespace Kacasnap {
 		{
 			InitializeComponent();
 			//
-			//TODO: 在此处添加构造函数代码
+			//TODO: Add Construction Code
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// 清理所有正在使用的资源。
+		/// Clear all the occupied resources
 		/// </summary>
 		~Form1()
 		{
@@ -57,43 +48,16 @@ namespace Kacasnap {
 	private: System::Windows::Forms::Label^  label1;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton9;
 
-
-
-	protected: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	protected: 
 
 	private:
 		/// <summary>
-		/// 必需的设计器变量。
+		/// Compulsory parameters of Designer
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
-		/// <summary>
-		/// 设计器支持所需的方法 - 不要
-		/// 使用代码编辑器修改此方法的内容。
-		/// </summary>
+
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
@@ -122,7 +86,7 @@ namespace Kacasnap {
 			this->toolStripButton1->Name = L"toolStripButton1";
 			this->toolStripButton1->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton1->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton1->Text = L"保存";
+			this->toolStripButton1->Text = L"Save";
 			// 
 			// toolStripButton2
 			// 
@@ -132,7 +96,7 @@ namespace Kacasnap {
 			this->toolStripButton2->Name = L"toolStripButton2";
 			this->toolStripButton2->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton2->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton2->Text = L"另存为";
+			this->toolStripButton2->Text = L"Save As";
 			// 
 			// toolStripSeparator1
 			// 
@@ -147,7 +111,7 @@ namespace Kacasnap {
 			this->toolStripButton3->Name = L"toolStripButton3";
 			this->toolStripButton3->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton3->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton3->Text = L"撤销";
+			this->toolStripButton3->Text = L"Undo";
 			// 
 			// toolStripSeparator2
 			// 
@@ -162,7 +126,7 @@ namespace Kacasnap {
 			this->toolStripButton4->Name = L"toolStripButton4";
 			this->toolStripButton4->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton4->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton4->Text = L"亮度调节";
+			this->toolStripButton4->Text = L"Brightness Control";
 			// 
 			// toolStripButton5
 			// 
@@ -172,7 +136,7 @@ namespace Kacasnap {
 			this->toolStripButton5->Name = L"toolStripButton5";
 			this->toolStripButton5->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton5->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton5->Text = L"对比度调节";
+			this->toolStripButton5->Text = L"Contrast Control";
 			// 
 			// toolStripButton6
 			// 
@@ -182,7 +146,7 @@ namespace Kacasnap {
 			this->toolStripButton6->Name = L"toolStripButton6";
 			this->toolStripButton6->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton6->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton6->Text = L"透明度";
+			this->toolStripButton6->Text = L"Transparency";
 			// 
 			// toolStripSeparator3
 			// 
@@ -197,7 +161,7 @@ namespace Kacasnap {
 			this->toolStripButton7->Name = L"toolStripButton7";
 			this->toolStripButton7->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton7->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton7->Text = L"帮助";
+			this->toolStripButton7->Text = L"Help";
 			// 
 			// toolStripButton8
 			// 
@@ -207,7 +171,7 @@ namespace Kacasnap {
 			this->toolStripButton8->Name = L"toolStripButton8";
 			this->toolStripButton8->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton8->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton8->Text = L"关于";
+			this->toolStripButton8->Text = L"About";
 			this->toolStripButton8->Click += gcnew System::EventHandler(this, &Form1::label1_Click);
 			// 
 			// toolStrip1
@@ -234,7 +198,7 @@ namespace Kacasnap {
 			this->toolStripButton9->Name = L"toolStripButton9";
 			this->toolStripButton9->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
 			this->toolStripButton9->Size = System::Drawing::Size(40, 36);
-			this->toolStripButton9->Text = L"退出";
+			this->toolStripButton9->Text = L"Exit";
 			this->toolStripButton9->Click += gcnew System::EventHandler(this, &Form1::toolStripButton9_Click);
 			// 
 			// label1
