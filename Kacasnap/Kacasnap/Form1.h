@@ -11,13 +11,9 @@ namespace Kacasnap {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Form1 ÕªÒª
+	/// Form1 Summary
 	///
-	/// ¾¯¸æ: Èç¹û¸ü¸Ä´ËÀàµÄÃû³Æ£¬ÔòĞèÒª¸ü¸Ä
-	///          Óë´ËÀàËùÒÀÀµµÄËùÓĞ .resx ÎÄ¼ş¹ØÁªµÄÍĞ¹Ü×ÊÔ´±àÒëÆ÷¹¤¾ßµÄ
-	///          ¡°×ÊÔ´ÎÄ¼şÃû¡±ÊôĞÔ¡£·ñÔò£¬
-	///          Éè¼ÆÆ÷½«²»ÄÜÓë´Ë´°ÌåµÄ¹ØÁª
-	///          ±¾µØ»¯×ÊÔ´ÕıÈ·½»»¥¡£
+        ///
 	/// </summary>
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
@@ -85,7 +81,7 @@ namespace Kacasnap {
 
 	private:
 		/// <summary>
-		/// Compulsory variables of Designer¡£
+		/// Compulsory variables of Designerã€‚
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
@@ -241,7 +237,7 @@ namespace Kacasnap {
 			// 
 			this->label1->BackColor = System::Drawing::SystemColors::ButtonFace;
 			this->label1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label1->Font = (gcnew System::Drawing::Font(L"ËÎÌå", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+			this->label1->Font = (gcnew System::Drawing::Font(L"å®‹ä½“", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(134)));
 			this->label1->Location = System::Drawing::Point(-1, 485);
 			this->label1->Name = L"label1";
